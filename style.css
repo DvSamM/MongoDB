@@ -1,0 +1,174 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Euclid Circular A";
+
+}
+
+.mono{
+    padding: 60px 0px 0px  40px;
+    width: 100%;
+}
+hr{
+    width: 370px;
+    margin-top: 30px;
+}
+.log{
+    color: green;
+    font-weight: 200;
+    padding: 10px;
+}
+small{
+    background-color: white;
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+.up{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+}
+.up a{
+    color: blue;
+    text-decoration: none;
+}
+
+.google{
+    border: 1px solid black;
+    height: 9vh;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 60px;
+    border-radius: 10px;
+}
+.github{
+    border: 1px solid black;
+    height: 9vh;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label{
+   font-size: 15px; 
+   font-weight: bolder;
+}
+input{
+    height: 7vh;
+    width: 300px;
+    
+}
+
+button{
+    margin-top: 50px;
+    height: 7vh;
+    padding: 10px;
+    width: 66px;
+}
+section{
+    display: flex; 
+}
+
+.mono{
+    padding: 60px 0px 0px  20px;
+    width: 100%;
+}
+.dos{
+    background-image: url(/image/login_promo_desktop_v20240306.svg);
+    width: 250%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 645px;
+}
+
+.atlas{
+    width: 300px;
+    padding: 40px;
+}
+.atlas{
+    color: #0C2657;
+}
+.atlas h1{
+    font-size: 35px;
+    width: 300px;
+}
+.atlas p{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 330px;
+    margin-bottom: 20px;
+}
+.atlas a{
+    color: #0C2657;
+}
+.lo{
+    display: none;
+}
+
+
+
+@media screen and (max-width:480px){
+    section{
+        width: 100%;
+    }
+    html, body{
+        width: 100%;
+    }
+    .google{
+        width: 370px;
+        border-radius: 10px;
+    }
+    .github{
+        border-radius: 10px;
+        width: 370px;
+
+    }
+    input{
+        margin-top: 25px;
+        margin-bottom: -30px;
+        width: 370px;
+    }
+
+
+    button{
+        width: 370px;
+    }
+
+    .mono h1{
+        font-size: 34px;
+    }
+    .lo{
+        display: content;
+        background-color: rgb(204, 231, 231);
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lo p.pre{
+        border-bottom: 1px solid #0C2657;
+        width: 240px;
+        color: #0C2657;
+        margin-top: -3px;
+        font-weight: bold;
+    }
+    .dos{
+        display: none;
+        width: 0px;
+    }
+    /* .dos{
+        background-image: url(/image/login_promo_desktop_v20240306.svg);
+        width: 250%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 645px;
+    } */
+      
+}
